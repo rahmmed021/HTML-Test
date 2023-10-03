@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Black+Ops+One&family=Josefin+Sans:ital,wght@0,300;0,400;1,700&family=Satisfy&family=Skranji&display=swap");
+
+
+:root {
+  --font1: "Architects Daughter", cursive;
+  --font2: "Black Ops One", cursive;
+  --font3: "Josefin Sans", sans-serif;
+  --font4: "Satisfy", cursive;
+  --font5: "Skranji", cursive;
+  --pd1: 10px;
+  --pd2: 20px;
+  --mg1: 0 auto;
+  --mg2: 20px;
+  --border1: 1px solid black;
+  --border2: 2px solid black;
+  --color1: red;
+  --color2: green;
+  --color3: blue;
+  --color4: #fff;
+  --color4: #000;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  border-top: var(--border2);
+  border-bottom: var(--border2);
+  padding: 10px 0px;
+  font-family: var(--font2);
+  font-size: 16px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-family: var(--font5);
+  letter-spacing: 16px;
+  border-bottom: var(--border2);
+  margin-bottom: 10px;
+}
+
+.heading > h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.part1 {
+  border-bottom: var(--border2);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: var(--font1);
+}
+
+.part1__img {
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+}
+
+.part2 {
+  border-bottom: var(--border2);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: var(--font3);
+}
+
+.part2__img {
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+}
+
+.part3 {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  border-bottom: var(--border2);
+  margin-bottom: 10px;
+  font-family: var(--font4);
+}
+
+.part3__1,
+.part3__2,
+.part3__3 {
+  margin: 0 10px;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font5);
+}
+
+.footerrigh > ul > li {
+  display: inline;
+  margin: 0 5px;
+  text-decoration: none;
+}
